@@ -8446,6 +8446,7 @@ exports[`Storyshots UI|Sidebar/Sidebar loading 1`] = `
               >
                 <button
                   class="emotion-5"
+                  title="Shortcuts"
                 >
                   <svg
                     class="emotion-4"
@@ -9872,6 +9873,7 @@ exports[`Storyshots UI|Sidebar/Sidebar simple 1`] = `
               >
                 <button
                   class="emotion-5"
+                  title="Shortcuts"
                 >
                   <svg
                     class="emotion-4"
@@ -9893,6 +9895,7 @@ exports[`Storyshots UI|Sidebar/Sidebar simple 1`] = `
                 class="emotion-14"
               >
                 <input
+                  aria-label="Search stories"
                   class="emotion-8"
                   id="storybook-explorer-searchfield"
                   placeholder="Press \\"/\\" to search..."
@@ -9909,6 +9912,7 @@ exports[`Storyshots UI|Sidebar/Sidebar simple 1`] = `
                 </svg>
                 <button
                   class="emotion-13"
+                  title="Clear search"
                   type="reset"
                   value="reset"
                 >
@@ -10412,6 +10416,7 @@ exports[`Storyshots UI|Sidebar/SidebarHeading customBrandImage 1`] = `
     >
       <button
         class="emotion-5"
+        title="Shortcuts"
       >
         <svg
           class="emotion-4"
@@ -10709,6 +10714,7 @@ exports[`Storyshots UI|Sidebar/SidebarHeading linkAndText 1`] = `
     >
       <button
         class="emotion-4"
+        title="Shortcuts"
       >
         <svg
           class="emotion-3"
@@ -10986,6 +10992,7 @@ exports[`Storyshots UI|Sidebar/SidebarHeading longText 1`] = `
     >
       <button
         class="emotion-3"
+        title="Shortcuts"
       >
         <svg
           class="emotion-2"
@@ -11362,6 +11369,7 @@ exports[`Storyshots UI|Sidebar/SidebarHeading menuHighlighted 1`] = `
     >
       <button
         class="emotion-5"
+        title="Shortcuts"
       >
         <svg
           class="emotion-4"
@@ -11639,6 +11647,7 @@ exports[`Storyshots UI|Sidebar/SidebarHeading onlyText 1`] = `
     >
       <button
         class="emotion-3"
+        title="Shortcuts"
       >
         <svg
           class="emotion-2"
@@ -11993,6 +12002,7 @@ exports[`Storyshots UI|Sidebar/SidebarHeading standard 1`] = `
     >
       <button
         class="emotion-5"
+        title="Shortcuts"
       >
         <svg
           class="emotion-4"
@@ -12327,6 +12337,7 @@ exports[`Storyshots UI|Sidebar/SidebarHeading standardNoLink 1`] = `
     >
       <button
         class="emotion-4"
+        title="Shortcuts"
       >
         <svg
           class="emotion-3"
@@ -14228,6 +14239,7 @@ exports[`Storyshots UI|Sidebar/SidebarSearch filledIn 1`] = `
     class="emotion-6"
   >
     <input
+      aria-label="Search stories"
       class="emotion-0"
       id="storybook-explorer-searchfield"
       placeholder="Type to search..."
@@ -14245,6 +14257,7 @@ exports[`Storyshots UI|Sidebar/SidebarSearch filledIn 1`] = `
     </svg>
     <button
       class="emotion-5"
+      title="Clear search"
       type="reset"
       value="reset"
     >
@@ -14517,6 +14530,7 @@ exports[`Storyshots UI|Sidebar/SidebarSearch focussed 1`] = `
     class="emotion-6"
   >
     <input
+      aria-label="Search stories"
       class="emotion-0"
       id="storybook-explorer-searchfield"
       placeholder="Type to search..."
@@ -14533,6 +14547,7 @@ exports[`Storyshots UI|Sidebar/SidebarSearch focussed 1`] = `
     </svg>
     <button
       class="emotion-5"
+      title="Clear search"
       type="reset"
       value="reset"
     >
@@ -14805,6 +14820,7 @@ exports[`Storyshots UI|Sidebar/SidebarSearch simple 1`] = `
     class="emotion-6"
   >
     <input
+      aria-label="Search stories"
       class="emotion-0"
       id="storybook-explorer-searchfield"
       placeholder="Press \\"/\\" to search..."
@@ -14821,6 +14837,7 @@ exports[`Storyshots UI|Sidebar/SidebarSearch simple 1`] = `
     </svg>
     <button
       class="emotion-5"
+      title="Clear search"
       type="reset"
       value="reset"
     >
@@ -16494,6 +16511,7 @@ exports[`Storyshots UI|Sidebar/SidebarStories noRoot 1`] = `
       class="emotion-6"
     >
       <input
+        aria-label="Search stories"
         class="emotion-0"
         id="storybook-explorer-searchfield"
         placeholder="Press \\"/\\" to search..."
@@ -16510,6 +16528,7 @@ exports[`Storyshots UI|Sidebar/SidebarStories noRoot 1`] = `
       </svg>
       <button
         class="emotion-5"
+        title="Clear search"
         type="reset"
         value="reset"
       >
@@ -17409,6 +17428,7 @@ exports[`Storyshots UI|Sidebar/SidebarStories withRoot 1`] = `
       class="emotion-6"
     >
       <input
+        aria-label="Search stories"
         class="emotion-0"
         id="storybook-explorer-searchfield"
         placeholder="Press \\"/\\" to search..."
@@ -17425,6 +17445,7 @@ exports[`Storyshots UI|Sidebar/SidebarStories withRoot 1`] = `
       </svg>
       <button
         class="emotion-5"
+        title="Clear search"
         type="reset"
         value="reset"
       >
