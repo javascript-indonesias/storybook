@@ -1,3 +1,27 @@
+## 5.3.0-beta.25 (December 15, 2019)
+
+### Bug Fixes
+
+* Addon-docs: Hide addons on  docs-only stories ([#9125](https://github.com/storybookjs/storybook/pull/9125))
+
+### Dependency Upgrades
+
+* Upgrade vue-docgen-loader to 1.3.0-beta.0 ([#9155](https://github.com/storybookjs/storybook/pull/9155))
+
+## 5.3.0-beta.24 (December 15, 2019)
+
+Failed NPM publish
+
+## 5.3.0-beta.23 (December 14, 2019)
+
+### Features
+
+* Addon-docs: Render components as leaves in `--docs` mode ([#7700](https://github.com/storybookjs/storybook/pull/7700))
+
+### Bug Fixes
+
+* Addon-viewport: Allow viewports config to be optional ([#9137](https://github.com/storybookjs/storybook/pull/9137))
+
 ## 5.3.0-beta.22 (December 12, 2019)
 
 ### Bug Fixes
