@@ -1,3 +1,17 @@
+## 6.1.0-beta.5 (November 8, 2020)
+
+### Features
+
+* UI: Single story hoisting in sidebar ([#13039](https://github.com/storybookjs/storybook/pull/13039))
+
+## 6.1.0-beta.4 (November 6, 2020)
+
+### Bug Fixes
+
+- UI: Fixes for Sidebar and Search ([#13027](https://github.com/storybookjs/storybook/pull/13027))
+- Core: Make sure cache is available before trying to use it ([#13012](https://github.com/storybookjs/storybook/pull/13012))
+- Core: Fix possible "write after end" exception for response stream ([#13007](https://github.com/storybookjs/storybook/pull/13007))
+
 ## 6.1.0-beta.3 (November 6, 2020)
 
 ### Features

@@ -1,6 +1,6 @@
 {
   "name": "@storybook/addon-links",
-  "version": "6.1.0-beta.3",
+  "version": "6.1.0-beta.5",
   "description": "Story Links addon for storybook",
   "keywords": [
     "addon",
@@ -29,11 +29,11 @@
     "prepare": "node ../../scripts/prepare.js"
   },
   "dependencies": {
-    "@storybook/addons": "6.1.0-beta.3",
-    "@storybook/client-logger": "6.1.0-beta.3",
-    "@storybook/core-events": "6.1.0-beta.3",
+    "@storybook/addons": "6.1.0-beta.5",
+    "@storybook/client-logger": "6.1.0-beta.5",
+    "@storybook/core-events": "6.1.0-beta.5",
     "@storybook/csf": "0.0.1",
-    "@storybook/router": "6.1.0-beta.3",
+    "@storybook/router": "6.1.0-beta.5",
     "@types/qs": "^6.9.0",
     "core-js": "^3.0.1",
     "global": "^4.3.2",
@@ -60,7 +60,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "2e11de30450cb6443661568bec770f36b20c42d2",
+  "gitHead": "7bd2ae048222c2cc249775a3271b5b7dbe638038",
   "typesVersions": {
     "<3.8": {
       "*": [
