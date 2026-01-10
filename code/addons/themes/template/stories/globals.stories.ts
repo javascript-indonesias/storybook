@@ -37,12 +37,12 @@ const addStyleSheetDecorator = (storyFn: any) => {
 };
 
 export default {
-  component: globalThis.Components.Pre,
+  component: globalThis.__TEMPLATE_COMPONENTS__.Pre,
   args: {
     text: 'Testing the themes',
   },
   parameters: {
-    chromatic: { disable: true },
+    chromatic: { disableSnapshot: true },
     themes: { disable: false },
   },
   globals: {

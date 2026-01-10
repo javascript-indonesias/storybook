@@ -3,7 +3,7 @@ import { global as globalThis } from '@storybook/global';
 import { spyOn } from 'storybook/test';
 
 const meta = {
-  component: globalThis.Components.Button,
+  component: globalThis.__TEMPLATE_COMPONENTS__.Button,
   beforeEach() {
     spyOn(console, 'log').mockName('console.log');
     console.log('first');
@@ -14,7 +14,7 @@ export default meta;
 
 export const ShowSpyOnInActions = {
   parameters: {
-    chromatic: { disable: true },
+    chromatic: { disableSnapshot: true },
   },
   beforeEach() {
     console.log('second');

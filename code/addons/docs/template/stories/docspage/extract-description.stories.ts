@@ -1,5 +1,5 @@
 export default {
-  component: globalThis.Components.Button,
+  component: globalThis.__TEMPLATE_COMPONENTS__.Button,
   tags: ['autodocs'],
   args: { label: 'Click Me!' },
   parameters: {
@@ -9,7 +9,7 @@ export default {
       //   for documentation purposes only.
       extractComponentDescription: () => 'component description',
     },
-    chromatic: { disable: true },
+    chromatic: { disableSnapshot: true },
   },
 };
 

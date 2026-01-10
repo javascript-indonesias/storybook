@@ -20,7 +20,7 @@ import { expect, within } from 'storybook/test';
  */
 export default {
   title: 'Docs2/ResolvedReact',
-  component: globalThis.Components.Html,
+  component: globalThis.__TEMPLATE_COMPONENTS__.Html,
   tags: ['autodocs'],
   argTypes: {
     content: { table: { disable: true } },
@@ -49,7 +49,7 @@ export default {
       name: 'ResolvedReact',
     },
     // the version string changes with every release of React/Next.js/Preact, not worth snapshotting
-    chromatic: { disable: true },
+    chromatic: { disableSnapshot: true },
   },
 };
 

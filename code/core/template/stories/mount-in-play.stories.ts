@@ -1,11 +1,11 @@
 import { expect, fn } from 'storybook/test';
 
-const meta = { component: globalThis.Components.Button };
+const meta = { component: globalThis.__TEMPLATE_COMPONENTS__.Button };
 
 export default meta;
 
 export const MountShouldBeDestructured = {
-  parameters: { chromatic: { disable: true } },
+  parameters: { chromatic: { disableSnapshot: true } },
   args: {
     label: 'Button',
     onClick: fn(),

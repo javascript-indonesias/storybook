@@ -1,12 +1,12 @@
 import { global as globalThis } from '@storybook/global';
 
 export default {
-  component: globalThis.Components.Html,
+  component: globalThis.__TEMPLATE_COMPONENTS__.Html,
   args: {
     content: '',
   },
   parameters: {
-    chromatic: { disable: true },
+    chromatic: { disableSnapshot: true },
   },
 };
 

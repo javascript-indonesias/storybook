@@ -1,12 +1,12 @@
 import { global as globalThis } from '@storybook/global';
 
 export default {
-  component: globalThis.Components.Pre,
+  component: globalThis.__TEMPLATE_COMPONENTS__.Pre,
   args: {
     text: 'Testing the background',
   },
   parameters: {
-    chromatic: { disable: true },
+    chromatic: { disableSnapshot: true },
     backgrounds: {
       options: {
         red: { name: 'light', value: 'red' },

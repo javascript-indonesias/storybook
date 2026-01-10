@@ -10,7 +10,7 @@ export const PreviewContainer = styled.main({
   overflow: 'hidden',
 });
 
-export const FrameWrap = styled.div({
+export const FrameWrap = styled.section({
   overflow: 'auto',
   width: '100%',
   zIndex: 3,
@@ -27,8 +27,8 @@ export const CanvasWrap = styled.div<{ show: boolean }>(
     gridTemplateColumns: '100%',
     gridTemplateRows: '100%',
     position: 'relative',
-    width: '100%',
-    height: '100%',
+    minWidth: '100%',
+    minHeight: '100%',
   },
   ({ show }) => ({ display: show ? 'grid' : 'none' })
 );

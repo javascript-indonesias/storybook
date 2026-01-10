@@ -3,13 +3,13 @@ import { global as globalThis } from '@storybook/global';
 import { linkTo } from '@storybook/addon-links';
 
 export default {
-  component: globalThis.Components.Button,
+  component: globalThis.__TEMPLATE_COMPONENTS__.Button,
   title: 'linkTo',
   args: {
     label: 'Click Me!',
   },
   parameters: {
-    chromatic: { disable: true },
+    chromatic: { disableSnapshot: true },
   },
 };
 
@@ -18,7 +18,7 @@ export const Target = {
     label: 'This is just a story to target with the links',
   },
   parameters: {
-    chromatic: { disable: true },
+    chromatic: { disableSnapshot: true },
   },
 };
 

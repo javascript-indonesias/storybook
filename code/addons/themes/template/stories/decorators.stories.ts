@@ -41,7 +41,7 @@ const addStyleSheetDecorator = (storyFn: any) => {
 };
 
 export default {
-  component: globalThis.Components.Pre,
+  component: globalThis.__TEMPLATE_COMPONENTS__.Pre,
   args: {
     text: 'Testing the themes',
   },
@@ -49,7 +49,7 @@ export default {
     sb_theme: 'light',
   },
   parameters: {
-    chromatic: { disable: true },
+    chromatic: { disableSnapshot: true },
     themes: { disable: false },
   },
   decorators: [addStyleSheetDecorator],

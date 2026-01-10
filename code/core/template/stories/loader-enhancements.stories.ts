@@ -2,8 +2,8 @@
 import { expect, within } from 'storybook/test';
 
 const meta = {
-  component: globalThis.Components.Button,
-  parameters: { chromatic: { disable: true } },
+  component: globalThis.__TEMPLATE_COMPONENTS__.Button,
+  parameters: { chromatic: { disableSnapshot: true } },
   args: { label: 'Button' },
 };
 

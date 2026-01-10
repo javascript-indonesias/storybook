@@ -1,12 +1,12 @@
 import { global as globalThis } from '@storybook/global';
 
 export default {
-  component: globalThis.Components.Html,
+  component: globalThis.__TEMPLATE_COMPONENTS__.Html,
   args: {
     content: '<button>Click Me!</button>',
   },
   parameters: {
-    chromatic: { disable: true },
+    chromatic: { disableSnapshot: true },
     a11y: {
       test: 'error',
     },

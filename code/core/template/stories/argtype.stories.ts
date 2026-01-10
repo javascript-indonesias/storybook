@@ -1,7 +1,7 @@
 import { global as globalThis } from '@storybook/global';
 
 export default {
-  component: globalThis.Components.Button,
+  component: globalThis.__TEMPLATE_COMPONENTS__.Button,
   args: {
     label: 'Click Me!',
   },
@@ -9,7 +9,7 @@ export default {
     onClick: {},
   },
   parameters: {
-    chromatic: { disable: true },
+    chromatic: { disableSnapshot: true },
     actions: { argTypesRegex: '^on.*' },
   },
 };

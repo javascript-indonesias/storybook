@@ -3,12 +3,12 @@ import { global as globalThis } from '@storybook/global';
 import { withActions } from 'storybook/actions/decorator';
 
 export default {
-  component: globalThis.Components.Button,
+  component: globalThis.__TEMPLATE_COMPONENTS__.Button,
   args: {
     label: 'Click Me!',
   },
   parameters: {
-    chromatic: { disable: true },
+    chromatic: { disableSnapshot: true },
   },
 };
 
